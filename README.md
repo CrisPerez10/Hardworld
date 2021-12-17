@@ -1,4 +1,4 @@
-align="center">Hi 👋, I'm Cris Perez</h1>
+h1 align="center">Hi 👋, I'm Cris Perez</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
 - 🔭 I’m currently working on [Hardworld proyect](https://github.com/CrisPerez10/Hardworld)
