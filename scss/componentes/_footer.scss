@@ -1,38 +1,40 @@
 @import "../base/variables";
+@import "../base/misins";
 
-// footer {
-//     height: 0 auto;
-//   }
+.bg-footer {
+  background-color: $bg-darkblue;
+  border-radius: 15px;
+}
 
-  .bg-footer {
-    background-color: $bg-darkblue;
-    border-radius: 15px;
-  }
-  
-  .h2-footer {
-    color: $bg-white;
-    font-size: 13px;
-    text-align: center;
-    font-weight: 300;
-  }
-  
-  .ul-container {
-    margin-top: 15px;
-    border-radius: 20px !important;
-  }
-  
-  .li-title {
-    font-weight: 600;
-  }
-  
-  .ul-container a {
+.ul-container-footer {
+  margin-top: 15px;
+  border-radius: 10px !important;
+}
+
+.li-title {
+  font-weight: 600;
+}
+
+.li-items {
+  font-size: 14px;
+}
+
+.ul-container-footer a {
+  text-decoration: none;
+  color: $bg-Gris3;
+
+  &:hover {
     text-decoration: none;
-    color: $bg-Gris3;
-  
-    &:hover {
-      text-decoration: none;
-      color: $bg-blue;
-    }
+    color: $bg-blue;
   }
-  
-  
+}
+
+.h2-footer a {
+  @include flex (flex, center, none, none);
+  @include font(13px, 300, $bg-white, center);
+  text-decoration: none;
+
+  &:hover {
+    @include font(13px, 300, $bg-blue, center);
+  }
+}

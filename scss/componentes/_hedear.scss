@@ -1,0 +1,29 @@
+@import "../base/variables";
+@import "../base/misins";
+
+/* Nav */
+
+.nav-container {
+  position: sticky;
+  bottom: 0;
+  padding-top: 0 !important;
+  z-index: 10;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-li {
+  margin: 3px;
+
+  &:hover {
+    margin: 3px;
+    color: $bg-blue !important;
+  }
+}
+
+.nav-li-drop:hover {
+  background-color: #044bd9 !important;
+  color: $bg-white !important;
+}

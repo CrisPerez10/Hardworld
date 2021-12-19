@@ -1,0 +1,27 @@
+@mixin flex($flex, $center, $width, $aling) {
+    display: $flex;
+    justify-content: $center;
+    width: $width;
+    align-items: $aling;
+  }
+  
+  @mixin flex-grid($flex, $center, $width, $wrap, $aling) {
+    display:$flex;
+    justify-content: $center;
+    width: $width;
+    flex-wrap: $wrap;
+    align-items: $aling;
+  }
+  
+  @mixin font($size, $weigth, $color, $center) {
+    font-size: $size;
+    font-weight: $weigth;
+    color: $color;
+    text-align: $center;
+  }
+
+  @mixin position ($position, $height, $width) {
+      position: $position;
+      height: $height;
+      width: $width;
+  }
