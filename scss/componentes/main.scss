@@ -1,0 +1,188 @@
+@import "../base/variables";
+
+/* Index */
+
+/* Banner */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 43px;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.bnr-container a {
+  border-right: 1px solid $bg-Gris;
+  padding-right: 28px;
+}
+
+.bnr-container a,
+.bnr-container1 a {
+  color: $bg-Gris2;
+  text-decoration: none;
+  font-size: 16px;
+
+  &:hover {
+    text-decoration: underline;
+    color: $bg-Gris4;
+    font-size: 16px;
+  }
+}
+
+.ico-banne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Nav */
+
+.nav-container {
+  position: sticky;
+  bottom: 0;
+  padding-top: 0 !important;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-li {
+  margin: 3px;
+
+  &:hover {
+    color: $bg-blue !important;
+  }
+}
+
+.nav-li-drop:hover {
+  background-color: #044bd9 !important;
+  color: $bg-white !important;
+}
+
+/* Title index  */
+
+.title-container {
+  margin-top: 50px;
+}
+
+.span1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap !important;
+  color: $bg-black;
+  font-size: 130px;
+  font-weight: 700;
+}
+
+.span2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-indent: 10px;
+  color: $bg-black;
+  font-size: 31.5px;
+  font-weight: 700;
+}
+
+.span2 br:hover {
+  color: $bg-blue;
+}
+
+.seccion1-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center !important;
+  margin-top: 80px;
+}
+
+.seccion2-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Nav de secciones */
+
+.secciones-container {
+  background-color: rgba(115, 115, 115, 0.2);
+  border-radius: 20px;
+  transition: all 0.6s ease-in;
+
+  &:hover {
+    background-color: rgba(115, 115, 115, 0.3);
+    transition: all 0.6s ease-out;
+  }
+}
+
+.secciones-container a {
+  text-decoration: none;
+}
+
+.ico-sec2 {
+  color: $bg-Gris4;
+  transition: all 0.6s ease-in;
+  font-weight: 600;
+
+  &:hover {
+    transition: all 0.6s ease-out;
+    color: $bg-blue;
+    font-weight: 600;
+  }
+}
+
+/* Trabajos */
+
+.h3-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.work-container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(0.95);
+  color: transparent;
+  transition: all 1s ease-in;
+
+  &:hover{
+    color: $bg-black;
+    opacity: 0.65;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1);
+    transition: all 0.6s ease-out;
+  }
+}
+
+/* Footer */
+
+.h2-index {
+  display: inline-block;
+  position: relative;
+  right: 120px;
+  bottom: -55px;
+  transform: rotateZ(-90deg);
+  font-size: 17px;
+
+  &:hover {
+    color: $bg-blue;
+    text-decoration-line: overline;
+    transition: all 1s ease;
+  }
+}
+
+.txt-secciones {
+  font-size: 16px;
+}
+
+.important {
+  &:hover {
+    background-color: rgba(4, 75, 217, 0.28);
+    background-position: $bg-black;
+    transition: all 0.6s ease;
+    font-size: 16px;
+  }
+}

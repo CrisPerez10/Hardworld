@@ -1,11 +1,19 @@
 {
   "name": "harworld-proyecto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisPerez10/Hardworld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrisPerez10/Hardworld/issues"
+  },
+  "homepage": "https://github.com/CrisPerez10/Hardworld#readme",
+  "description": ""
 }

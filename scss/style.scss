@@ -1,0 +1,13 @@
+@import "base/variables";
+@import "componentes/inicio";
+@import "componentes/hedear";
+@import "componentes/frameworks";
+@import "componentes/footer";
+@import "componentes/main";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
