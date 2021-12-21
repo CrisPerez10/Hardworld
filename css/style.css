@@ -1,7 +1,11 @@
 /* Paleta de colores */
-/* Fuente */
 /* Paleta de colores */
-/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
 .logo-container {
   width: 100%;
 }
@@ -47,7 +51,6 @@
 }
 
 /* Paleta de colores */
-/* Fuente */
 /* Nav */
 .nav-container {
   position: sticky;
@@ -74,7 +77,6 @@
 }
 
 /* Paleta de colores */
-/* Fuente */
 .bg-footer {
   background-color: #0e2038;
   border-radius: 15px;
@@ -121,7 +123,9 @@
 }
 
 /* Paleta de colores */
-/* Fuente */
+/* 'Staatliches', cursive; */
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Encode Sans', sans-serif; */
 /* Index */
 /* Banner */
 .banner {
@@ -168,32 +172,32 @@
   margin-top: 50px;
 }
 
-.span1 {
+.h1-title {
   display: flex;
   justify-content: center;
   width: none;
   flex-wrap: wrap;
   align-items: none;
   font-size: 130px;
-  font-weight: 700;
+  font-weight: 600;
   color: #000;
   text-align: none;
 }
 
-.span2 {
+.txt-title {
   display: flex;
   justify-content: center;
   width: none;
   flex-wrap: wrap;
   align-items: none;
-  font-size: 31.5px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
   color: #000;
   text-align: center;
   text-indent: 10px;
 }
 
-.span2 br:hover {
+.txt-title br:hover {
   color: #044bd9;
 }
 
@@ -248,12 +252,10 @@
 
 /* Trabajos */
 .h3-title {
-  font-size: 30px;
-  font-weight: none;
+  font-size: 38px;
+  font-weight: 600;
   color: none;
   text-align: center;
-  text-align: center;
-  font-size: 30px;
 }
 
 .work-container {
@@ -334,15 +336,17 @@
 }
 
 /* Footer */
-.h2-index {
+.h2-aside-left {
   display: inline-block;
   position: relative;
   right: 120px;
   bottom: -55px;
-  transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg) !important;
   font-size: 17px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
 }
-.h2-index:hover {
+.h2-aside-left:hover {
   color: #044bd9;
   text-decoration-line: overline;
   transition: all 1s ease;
@@ -350,6 +354,8 @@
 
 .txt-secciones {
   font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
 }
 
 .important:hover {
@@ -359,10 +365,40 @@
   font-size: 16px;
 }
 
+/* Paleta de colores */
+/* 'Staatliches', cursive; */
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Encode Sans', sans-serif; */
+.seccionmap-container {
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(115, 115, 115, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.seccionmap-container iframe {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.h4-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.ubication-container {
+  text-align: center;
+}
+.ubication-container ul {
+  font-size: 20px;
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

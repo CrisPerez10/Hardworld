@@ -1,5 +1,6 @@
 @import "../base/variables";
 @import "../base/misins";
+@import "../base/fonts";
 
 /* Index */
 
@@ -37,19 +38,21 @@
   margin-top: 50px;
 }
 
-.span1 {
+.h1-title {
   @include flex-grid(flex, center, none, wrap, none);
-  @include font(130px, 700, $bg-black, none);
+  @include font(130px, 600, $bg-black, none);
+  
 }
 
-.span2 {
+.txt-title {
   @include flex-grid(flex, center, none, wrap, none);
-  @include font(31.5px, 700, $bg-black, center);
+  @include font(30px, 400, $bg-black, center);
   text-indent: 10px;
 }
 
-.span2 br:hover {
+.txt-title br:hover {
   color: $bg-blue;
+  
 }
 
 .seccion1-container {
@@ -94,9 +97,7 @@
 /* Trabajos */
 
 .h3-title {
-  @include font(30px, none, none, center);
-  text-align: center;
-  font-size: 30px;
+  @include font(38px, 600, none, center);
 }
 
 .work-container {
@@ -163,13 +164,15 @@
 
 /* Footer */
 
-.h2-index {
+.h2-aside-left {
   display: inline-block;
   position: relative;
   right: 120px;
   bottom: -55px;
-  transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg) !important;
   font-size: 17px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
 
   &:hover {
     color: $bg-blue;
@@ -180,6 +183,8 @@
 
 .txt-secciones {
   font-size: 16px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
 }
 
 .important {
