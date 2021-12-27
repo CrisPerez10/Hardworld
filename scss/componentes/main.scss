@@ -41,18 +41,18 @@
 .h1-title {
   @include flex-grid(flex, center, none, wrap, none);
   @include font(130px, 600, $bg-black, none);
-  
+  font-family: "Jost", sans-serif;
 }
 
 .txt-title {
   @include flex-grid(flex, center, none, wrap, none);
-  @include font(30px, 400, $bg-black, center);
+  @include font(33px, 400, $bg-black, center);
   text-indent: 10px;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .txt-title br:hover {
   color: $bg-blue;
-  
 }
 
 .seccion1-container {
@@ -98,6 +98,7 @@
 
 .h3-title {
   @include font(38px, 600, none, center);
+  font-family: "Encode Sans", sans-serif;
 }
 
 .work-container {
@@ -171,7 +172,7 @@
   bottom: -55px;
   transform: rotateZ(-90deg) !important;
   font-size: 17px;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
 
   &:hover {
@@ -182,9 +183,9 @@
 }
 
 .txt-secciones {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  font-family: 'Jost', sans-serif;
+  font-family: "Arima Madurai", cursive;
 }
 
 .important {
@@ -192,6 +193,6 @@
     background-color: rgba(4, 75, 217, 0.28);
     background-position: $bg-black;
     transition: all 0.6s ease;
-    font-size: 16px;
+    font-size: 18px;
   }
 }

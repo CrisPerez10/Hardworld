@@ -1,11 +1,31 @@
+@charset "UTF-8";
 /* Paleta de colores */
+/* 'Staatliches', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* font-family: 'Jost', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
+/* font-family: 'Encode Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+/* font-family: 'Sacramento', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
+/* font-family: 'Arima Madurai', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
 /* Paleta de colores */
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
 .logo-container {
   width: 100%;
 }
@@ -51,6 +71,11 @@
 }
 
 /* Paleta de colores */
+/* 'Staatliches', cursive; */
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Encode Sans', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Arima Madurai', cursive; */
 /* Nav */
 .nav-container {
   position: sticky;
@@ -126,6 +151,8 @@
 /* 'Staatliches', cursive; */
 /* font-family: 'Jost', sans-serif; */
 /* font-family: 'Encode Sans', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Arima Madurai', cursive; */
 /* Index */
 /* Banner */
 .banner {
@@ -182,6 +209,7 @@
   font-weight: 600;
   color: #000;
   text-align: none;
+  font-family: "Jost", sans-serif;
 }
 
 .txt-title {
@@ -190,11 +218,12 @@
   width: none;
   flex-wrap: wrap;
   align-items: none;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 400;
   color: #000;
   text-align: center;
   text-indent: 10px;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .txt-title br:hover {
@@ -256,6 +285,7 @@
   font-weight: 600;
   color: none;
   text-align: center;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .work-container {
@@ -353,23 +383,27 @@
 }
 
 .txt-secciones {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Arima Madurai", cursive;
 }
 
 .important:hover {
   background-color: rgba(4, 75, 217, 0.28);
   background-position: #000;
   transition: all 0.6s ease;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* Paleta de colores */
 /* 'Staatliches', cursive; */
 /* font-family: 'Jost', sans-serif; */
 /* font-family: 'Encode Sans', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Arima Madurai', cursive; */
+/* MAP */
 .seccionmap-container {
+  width: 100%;
   align-items: center;
   border-radius: 20px;
   background-color: rgba(115, 115, 115, 0.2);
@@ -394,11 +428,53 @@
   list-style: none;
 }
 
+.nav-li-map {
+  margin: 3px;
+}
+.nav-li-map:hover {
+  margin: 3px;
+  color: #044bd9 !important;
+  text-decoration: underline;
+}
+
+/* END MAP */
+/* HORARIOS DE ATENCIÓN */
+.dias {
+  display: none;
+}
+.dias:target {
+  display: contents;
+  font-weight: 650;
+}
+
+.nav-dias-container {
+  width: 50% !important;
+  background: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+/* END HORARIOS DE ATENCIÓN */
+/* REDES */
+.redes-map-container {
+  width: 100% !important;
+}
+
+.ico-redes img {
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 5px;
+  border-bottom: 3px solid transparent;
+}
+.ico-redes img:hover {
+  border-bottom: 3px solid #737373;
+}
+
+/* END REDES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
