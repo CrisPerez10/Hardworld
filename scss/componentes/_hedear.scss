@@ -5,10 +5,10 @@
 /* Nav */
 
 .nav-container {
-  position: sticky;
-  bottom: 0;
+  position: sticky !important;
+  bottom: 0 !important;
   padding-top: 0 !important;
-  z-index: 10;
+  z-index: 10 !important;
 }
 
 .logo-img {

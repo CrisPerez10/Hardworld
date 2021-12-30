@@ -41,6 +41,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;600&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap");
 .logo-container {
   width: 100%;
 }
@@ -93,10 +98,10 @@
 /* font-family: 'Arima Madurai', cursive; */
 /* Nav */
 .nav-container {
-  position: sticky;
-  bottom: 0;
+  position: sticky !important;
+  bottom: 0 !important;
   padding-top: 0 !important;
-  z-index: 10;
+  z-index: 10 !important;
 }
 
 .logo-img {
@@ -477,7 +482,7 @@
 
 .ico-redes img {
   width: 50px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  filter: drop-shadow(4.5px 4.5px 1.2px rgba(59, 59, 59, 0.5));
   padding: 5px;
   border-bottom: 3px solid transparent;
 }
@@ -544,6 +549,17 @@
 
 /* END BTN */
 /* END SECCIONES ANUNCIOS */
+/* Paleta de colores */
+/* 'Staatliches', cursive; */
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Encode Sans', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Arima Madurai', cursive; */
+.txt-react {
+  font-weight: 650;
+  font-size: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;

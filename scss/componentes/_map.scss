@@ -74,8 +74,11 @@
 
 .ico-redes img {
   width: 50px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  filter: drop-shadow(4.5px 4.5px 1.2px rgba(59, 59, 59, 0.5));
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  //   rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  //   rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   padding: 5px;
   border-bottom: 3px solid transparent;
 

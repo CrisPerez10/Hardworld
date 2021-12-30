@@ -10,6 +10,7 @@
   @include flex-grid(flex, center, none, wrap, center);
   height: 43px;
   gap: 25px;
+  
 }
 
 .bnr-container a {
@@ -30,6 +31,7 @@
 
 .ico-banne {
   @include flex(flex, center, none, center);
+  
 }
 
 /* Title index  */
